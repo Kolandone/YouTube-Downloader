@@ -13,18 +13,19 @@ echo -e "\e[1;35m*****************************************"
 echo ""
 echo -e "\e[1;36m*****************************************"
 echo -e "\e[1;32m*Please choose an option:\e[0m"
-echo -e "\e[1;34m*1. IPv4 scan\e[0m"
-echo -e "\e[1;34m*2. IPv6 scan\e[0m"
-echo -e "\e[1;34m*3. V2ray and MahsaNG wireguard config\e[0m"
-echo -e "\e[1;34m*4. Hiddify config, After the first use, you can enter the \e[1;32mKOLAND\e[0m command"
-echo -e "\e[1;34m*5. Warp License Cloner\e[0m"
-echo -e "\e[1;34m*6. Hiddify config for 2.0 version or higher\e[0m"
-echo -e "\e[1;34m*7. Install Worker Creator\e[0m"
-echo -e "\e[1;34m*8. Run Worker Creator (install it first)\e[0m"
+echo -e "\e[1;35m*\e[1;34m1. IPv4 scan\e[0m"
+echo -e "\e[1;35m*\e[1;34m2. IPv6 scan\e[0m"
+echo -e "\e[1;35m*\e[1;34m3. V2ray and MahsaNG wireguard config\e[0m"
+echo -e "\e[1;35m*\e[1;34m4. Hiddify config, After the first use, you can enter the \e[1;32mKOLAND\e[0m command"
+echo -e "\e[1;35m*\e[1;34m5. Warp License Cloner\e[0m"
+echo -e "\e[1;35m*\e[1;34m6. Hiddify config for 2.0 version or higher\e[0m"
+echo -e "\e[1;35m*\e[1;34m7. Install Worker Creator\e[0m"
+echo -e "\e[1;35m*\e[1;34m8. Run Worker Creator (install it first)\e[0m"
 echo -e "\e[1;36m*****************************************"
 echo -ne "\e[1;32mEnter your choice:\e[0m"
-printf "%40s" ""
-read -p "$(tput setaf 4)" user_input
+printf "%40s" "" # This will create empty space for aligning the user input prompt to the right
+read -p "" user_input
+
 
 
 
