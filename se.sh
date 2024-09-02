@@ -21,9 +21,8 @@ echo -e "\e[1;33m5. Warp License Cloner\e[0m"
 echo -e "\e[1;33m6. Hiddify config for 2.0 version or higher\e[0m"
 echo -e "\e[1;33m7. Install Worker Creator\e[0m"
 echo -e "\e[1;33m8. Run Worker Creator (install it first)\e[0m"
-echo -e "\e[1;32mEnter your choice:\e[0m" read -r user_input
-
-
+echo -en "\e[1;32mEnter your choice:\e[0m" 
+read -r user_input
 measure_latency() {
     local ip_port=$1
     local ip=$(echo $ip_port | cut -d: -f1)
@@ -529,7 +528,3 @@ fi￼Enter        license=$(jq -r '.account.license' <warp-config.json)
     done
 }
 
-# Execute the chosen
-# Execute the chosen option
-if [ "$user_input" -eq 1 ]; then
-    echo "Fetching IPv4 addresses from install.sh..."
