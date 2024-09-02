@@ -5,6 +5,7 @@ clear
 
 
 echo -e "\e[1;35m*****************************************"
+echo -e "\e[1;35m*****************************************"
 echo -e "\e[1;35m*\e[0m \e[1;31mY\e[1;32mO\e[1;33mU\e[1;34mT\e[1;35mU\e[1;36mB\e[1;37mE\e[0m : \e[4;34mKOLANDONE\e[0m         \e[1;35m"
 echo -e "\e[1;35m*\e[0m \e[1;31mT\e[1;32mE\e[1;33mL\e[1;34mE\e[1;35mG\e[1;36mR\e[1;37mA\e[1;31mM\e[0m : \e[4;34mKOLANDJS\e[0m         \e[1;35m"
 echo -e "\e[1;35m*\e[0m \e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m : \e[4;34mhttps://github.com/Kolandone\e[0m \e[1;35m"
@@ -12,17 +13,18 @@ echo -e "\e[1;35m*****************************************"
 echo ""
 echo -e "\e[1;36m*****************************************"
 echo -e "\e[1;32m*Please choose an option:\e[0m"
-echo -e "\e[1;33m*1. IPv4 scan\e[0m"
-echo -e "\e[1;33m*2. IPv6 scan\e[0m"
-echo -e "\e[1;33m*3. V2ray and MahsaNG wireguard config\e[0m"
-echo -e "\e[1;33m*4. Hiddify config, After the first use, you can enter the \e[1;32mKOLAND\e[0m command"
-echo -e "\e[1;33m*5. Warp License Cloner\e[0m"
-echo -e "\e[1;33m*6. Hiddify config for 2.0 version or higher\e[0m"
-echo -e "\e[1;33m*7. Install Worker Creator\e[0m"
-echo -e "\e[1;33m*8. Run Worker Creator (install it first)\e[0m"
+echo -e "\e[1;34m*1. IPv4 scan\e[0m"
+echo -e "\e[1;34m*2. IPv6 scan\e[0m"
+echo -e "\e[1;34m*3. V2ray and MahsaNG wireguard config\e[0m"
+echo -e "\e[1;34m*4. Hiddify config, After the first use, you can enter the \e[1;32mKOLAND\e[0m command"
+echo -e "\e[1;34m*5. Warp License Cloner\e[0m"
+echo -e "\e[1;34m*6. Hiddify config for 2.0 version or higher\e[0m"
+echo -e "\e[1;34m*7. Install Worker Creator\e[0m"
+echo -e "\e[1;34m*8. Run Worker Creator (install it first)\e[0m"
 echo -e "\e[1;36m*****************************************"
-echo -e "\e[1;32mEnter your choice:\e[0m"
-read -r user_input
+echo -ne "\e[1;32mEnter your choice:\e[0m"
+printf "%40s" ""
+read -p "$(tput setaf 4)" user_input
 
 
 
