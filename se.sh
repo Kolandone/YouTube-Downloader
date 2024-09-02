@@ -20,8 +20,8 @@ echo -e "\e[1;33m*5. Warp License Cloner\e[0m"
 echo -e "\e[1;33m*6. Hiddify config for 2.0 version or higher\e[0m"
 echo -e "\e[1;33m*7. Install Worker Creator\e[0m"
 echo -e "\e[1;33m*8. Run Worker Creator (install it first)\e[0m"
-echo -e "\e[1;32mEnter your choice:\e[0m"
 echo -e "\e[1;36m*****************************************"
+echo -e "\e[1;32mEnter your choice:\e[0m"
 read -r user_input
 
 
